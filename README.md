@@ -8,6 +8,7 @@ At the moment this repository is under active development.
 # What this repository contains
 - Data and notebooks to reproduce paper figures (see `paper_figures/`).
 - The `born2disc` Python package as a local uv workspace member (see `packages/born2disc/`).
+- A script `download_data.sh` downloading the required data from [Zenodo](https://zenodo.org/records/18892338) (see below).
 
 # Installation (uv)
 
