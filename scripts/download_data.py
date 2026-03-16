@@ -26,11 +26,8 @@ from pathlib import Path
 
 DEFAULT_ARCHIVE_NAME = "data_zenodo.zip"
 DEFAULT_DATA_URL = (
-    "https://zenodo.org/api/records/18892338/draft/files/"
-    "data_zenodo.zip/content"
-    "?token=eyJhbGciOiJIUzUxMiJ9."
-    "eyJpZCI6ImY1Y2U3MTg3LTg4OGMtNDgwOC1hMzQ2LTZjYzgyMTQ2ZGUwNiIsImRhdGEiOnt9LCJyYW5kb20iOiJjN2EzMWY5Y2JhOTJjYzM1YjJlNzhiMjRkMjY5NTY5ZiJ9."
-    "sjNPUmnCbjuSfPDm6g3k-O-Gvx1035z15S3cDtczFiAM6n5HDg1hV-qiRj6v6HHu5kFzsBE-85V4-e3uq_aTTA"
+    "https://zenodo.org/records/18892338/files/"
+    "data_zenodo.zip?download=1"
 )
 DEFAULT_EXPECTED_SHA256 = (
     "b827b9c8d192597c4ce12c9bb36ef73c99a2848aa200b685ecfaf2540a34178d"
