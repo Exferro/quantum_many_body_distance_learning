@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "born2disc"
+version = "0.0.3"
+description = "Discriminative learning components for many-body phase distance extraction"
+authors = [{ name = "Oleksii Malyshev", email = "oleksii.o.malyshev@gmail.com" }]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "nestconf",
+    "numpy",
+    "pandas",
+    "pytorch-lightning",
+    "torch",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["born2disc*"]

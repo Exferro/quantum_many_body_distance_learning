@@ -1,0 +1,23 @@
+[project]
+name = "quantum-many-body-distance-learning"
+version = "0.1.0"
+description = "Supplementary code and data for reproducing figures from the paper on discriminative f-divergence distance learning in many-body physics."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "born2disc",
+    "ipykernel>=7.2.0",
+    "ipympl>=0.10.0",
+    "matplotlib>=3.10.8",
+    "nestconf",
+    "numpy>=2.4.2",
+    "scikit-learn>=1.8.0",
+    "torch>=2.10.0",
+]
+
+[tool.uv.workspace]
+members = ["packages/born2disc"]
+
+[tool.uv.sources]
+born2disc = { workspace = true }
+nestconf = { git = "https://github.com/Exferro/nestconf.git" }

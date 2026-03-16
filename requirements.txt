@@ -1,0 +1,13 @@
+# Install the local package in editable mode so `born2disc` imports resolve
+# while keeping the repository itself as a reproducibility workspace.
+-e ./packages/born2disc
+
+# `nestconf` is currently sourced from Git rather than PyPI.
+nestconf @ git+https://github.com/Exferro/nestconf.git
+
+# Notebook and plotting stack used by the reproducibility notebooks.
+ipykernel>=7.2.0
+ipympl>=0.10.0
+matplotlib>=3.10.8
+numpy>=2.4.2
+scikit-learn>=1.8.0
