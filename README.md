@@ -1,5 +1,7 @@
 # Quantum Many-Body Distance Learning
 
+[![arXiv](https://img.shields.io/badge/arXiv-2603.13485-b31b1b.svg)](https://arxiv.org/abs/2603.13485)
+
 Supporting data and code for the paper  
 **“Distance learning from projective measurements as an information-geometric probe of many-body physics.”**
 
